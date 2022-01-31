@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./app.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Demo Class</title>
+  </head>
+  <body>
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Samta International School</h1>
+        <p>A place where you can learn and grow</p>
+        <div class="search-box py-3">
+          <input type="text" placeholder="Search.." />
+          <span class="btn-search" type="submit"
+            ><i class="fa fa-search"></i
+          ></span>
+        </div>
+        <div class="btn btn-white">
+          <a href="#book_class"
+            >Book a demo class <i class="fas fa-arrow-right"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <div id="book_class" class="main">
+      <div class="signup-form my-5">
+        <div class="row">
+          <div class="col-lg-7 right-img">
+            <!-- <div class="img-container">
+              <img src="./assets/16.jpg" alt="">
+              </div> -->
+            <div
+              id="carouselExampleSlidesOnly"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/16.jpg" class="d-block" alt="..." />
+                </div>
+                <!-- <div class="carousel-item">
+                    <img src="./assets/17.jpg" class="d-block" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/18.jpg" class="d-block" alt="...">
+                  </div> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 left-form px-2 px-md-5">
+            <form class="pt-5">
+              <h5 class="text-left">
+                <strong>Book your Demo Class Now </strong>
+              </h5>
+              <div class="form-group">
+                <!-- <label for="exampleInputEmail1">First Name</label> -->
+
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Full name"
+                />
+              </div>
+              <!-- <div class="form-group">
+                <!<label for="exampleInputEmail1">Last Name</label> -->
+              <!-- <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last name"> -->
+              <!-- </div> -->
+              <div class="form-group">
+                <!-- <label for="exampleInputEmail1">Class</label> -->
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Class"
+                />
+              </div>
+              <div class="form-group">
+                <!-- <label for="exampleInputEmail1">DOB</label> -->
+                <input
+                  type="date"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Date of birth"
+                />
+              </div>
+              <div class="form-group">
+                <!-- <label for="exampleInputEmail1">Email</label> -->
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="form-group">
+                <!-- <label for="exampleInputPassword1">Mobile Number</label> -->
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="Mobile number"
+                />
+              </div>
+              <div class="form-group">
+                <!-- <label for="exampleInputEmail1">Address</label> -->
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Address"
+                />
+              </div>
+
+              <div>
+                <button type="submit" class="btn btn-submit float-end mb-2">
+                  Book Demo Class
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="testimonials" class="text-center pb-5">
+      <h3>What students say about us <i class="fas fa-comment-alt"></i></h3>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner container-md">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-12">
+                <p>
+                  I was really blessed to be a student of Samta International
+                  School, Rahuri. Here all the teachers are highly quallified
+                  and have profound knowledge of their subject. They all mentor
+                  every student personally and they all have developed an unique
+                  way to deliver their lecture which is easily understandable by
+                  every student.
+                </p>
+                <!-- <div>
+                          <img class="img-circle testimony-img" src="./assets/images/testimonials/p-k.png" alt="">
+                          <div> -->
+                <span class="testimony-name">- Ajay Pawar</span>
+                <span class="testimony-clg">(AVCOE, Sangamner)</span>
+                <!-- </div> -->
+                <!-- </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-12">
+                <p>
+                  I joined Samta International School, Rahuri in 2018-2019 for
+                  12th regular and MHT-CET coaching. I was totally blank when I
+                  joined the classes as I took 11th so lightly. In Unique
+                  Academy the teachers taught us how to grasp the concept in
+                  short time and be master of it. Also their Chapterwise Test
+                  pattern helped me to analyze my progress in a proper way.
+                </p>
+                <!-- <div>
+                          <img class="img-circle testimony-img" src="./assets/images/testimonials/g-r.jpg" alt="">
+                          <div> -->
+                <span class="testimony-name">- Vishal Rasal</span>
+                <span class="testimony-clg">(PCCOE, Pune)</span>
+                <!-- </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-12">
+                <p>
+                  I secured 97.55%ile and I am happy on my success, I was sure
+                  that I would be selected. I give credit of my success to my
+                  mentors shirsath sir and adhav sir. I never missed my classes
+                  nor homework. I always revised the test taken many times.
+                  Timeline, planning n plotting of our study for all subjects
+                  and mock tests are the golden key to crack any exam. And habit
+                  of these things is most valuable gift for me from the
+                  teachers.
+                </p>
+                <span class="testimony-name">- Darshan Misal</span>
+                <span class="testimony-clg">(PCCOE, Pune)</span>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-12">
+                <p>
+                  Samta International School, Rahuri is just like its name has a
+                  really unique approach for learning with very skilled teachers
+                  that enlighten students and teach them with easy to understand
+                  method and long run interactive sessions, I really want to
+                  thank Samta International School for engraving the seeds of
+                  knowledge in me and helping me to achieve success.
+                </p>
+                <span class="testimony-name">- Ayush Kengar</span>
+                <span class="testimony-clg"
+                  >(MIT Academy of Engg, Aalandi)</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="social-icons">
+          <span><i class="fab fa-facebook-f"></i></span>
+          <span><i class="fab fa-twitter"></i></span>
+          <span><i class="fab fa-instagram"></i></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
