@@ -345,3 +345,22 @@ body {
     position: relative;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .signup-form {
+    min-width: 900px;
+    height: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+}
